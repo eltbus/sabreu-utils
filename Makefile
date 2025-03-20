@@ -3,3 +3,6 @@ check:
 
 format:
 	@uv run python -Bm ruff format sabreu_utils tests
+
+test:
+	@uv run python -Bm pytest
